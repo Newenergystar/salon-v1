@@ -1,12 +1,19 @@
 import React from 'react'
-import styles from "./Admin.module.scss";
+import { AddProduct, AddService} from "../../components/index"
 
-const j = () => {
+
+const Admin = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+
+   <div>
+<AddService/>
+<AddProduct/>
+
+   </div>
+    
+    </>
   )
 }
 
-export default j
+export default Admin

@@ -1,2 +1,13 @@
 export {default as Footer} from "./Footer/Footer";
-export {default as Header} from "./Header/Header";
+export {default as Navbar} from "./Navbar/Navbar";
+export {default as Register} from "./Register/Register";
+export {default as Profile} from "./Profile/Profile"
+export {default as Login} from "./Login/Login"
+export {default as Booking} from "./Book/Book"
+export {default as AddProduct} from "./AddProduct/AddProduct"
+export {default as DisplayProducts} from "./DisplayProducts/DisplayProducts"
+export {default as Reviews} from "./Reviews/Reviews"
+export {default as DisplayReviews} from "./DisplayReviews/DisplayReviews"
+export {default as AddService} from "./AddService/AddService"
+export {default as AppointmentHandler} from "./AppointmentHandler/AppointmentHandler"
+export {default as HomeHero} from "./HomeHero/HomeHero"

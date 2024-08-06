@@ -1,0 +1,273 @@
+a{
+    text-decoration: none;
+}
+h3{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: bisque;
+    width: 100%;
+   
+}
+.logo{
+display: flex;
+max-height: 75px;
+max-width: 200;
+max-width: fit-content;
+text-decoration: none;
+margin-left: 10px;
+
+}
+.logotext{
+min-width: 168px; 
+text-decoration: none;
+color: black;
+}
+
+.logoimage{
+    object-fit: contain;
+    max-width: 80px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+}
+
+.home,
+.services,
+.products,
+.reviews,
+.signup,
+.contact,
+.book,
+.admin{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: 1px; 
+    padding: 6px;
+    border-radius: 15px;
+    font-weight: 600;
+
+}
+.home:hover,
+.services:hover,
+.products:hover,
+.reviews:hover,
+.signup:hover,
+.contact:hover,
+.admin:hover
+{
+background-color: beige;
+
+}
+.admin{
+    background-color: rgb(186, 186, 186);
+    text-shadow: #cc1111;
+  
+
+}
+
+.book:hover{
+    background-color: azure;
+
+}
+
+.book{
+    border: 1px;
+    background-color: rgb(169, 196, 128);
+
+   padding: 10px;
+}
+.mobile-menu-icon{
+    display: none;
+    
+    
+}
+.nav-links-mobile{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+    
+}
+.logout{
+    background: rgb(176, 85, 85);
+    padding: 10px;
+    justify-content: center;
+    }
+
+.modal{justify-content: center;}
+    
+
+@media screen and (max-width:780px){
+    .mobile-menu-icon{
+        display: flex;
+        text-decoration: none;
+        border: none;
+        outline: none;
+        background: none;
+        
+        
+
+        
+    }
+    .logout{
+        background: rgb(176, 85, 85);
+        padding: 10px;
+        justify-content: center;
+        margin-right: 30px;
+        }
+        
+
+.nav-links{
+    display: none;
+}
+.nav-links-mobile{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    flex-direction: column;
+    position: absolute;
+    background-color: bisque;
+   max-width: fit-content;
+    transition:  all 0.5s ease-in-out;
+    right: 0px;
+    top :50px;
+
+}
+
+.home,
+.services,
+.products,
+.reviews,
+.signup,
+.contact,
+.book,
+.admin{
+   color: black;
+   text-align: center;
+   padding: 9px;
+   font-size: 16px;
+   font-weight: 600;
+   width: 100%;
+   transition : all 0.5 ease;
+   justify-content: center;
+   margin-bottom: 4px;
+
+}
+
+
+
+.book{
+    border: 1px;
+    background-color: rgb(169, 196, 128);
+    border-radius: 25px;
+}
+.book:hover{
+    background-color: azure;
+
+}
+
+}
+.signupbox{
+    display: flex;
+
+ justify-content: center;
+    
+}
+.signupform{
+    flex-direction: column;
+    display: flex;
+   align-items: center; 
+   background: rgb(242, 236, 229);
+   padding: 10px;
+   border-radius: 20px;
+}
+
+.closebutton{
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+    cursor: pointer;
+    
+}
+.modelclose{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.mb-3{
+    display: flex;
+    font-size: large;
+    padding: 3px;
+}
+.form-control{
+    display: flex;
+}
+.form-control {
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  transition: 300ms ease-in-out;
+}
+
+.form-control:focus {
+  background-color: white;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #969696,
+             -13px -13px 100px #ffffff;
+}
+
+.signtitle{
+    font-weight: 400;
+    text-shadow: #969696;
+
+}
+.btnsubmit{
+    background: rgb(199, 228, 157);
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+.formsdiv{
+
+    display: flex;
+    flex-direction: column;
+}
+.loginform{
+    flex-direction: column;
+    display: flex;
+   align-items: center; 
+   background: rgb(242, 236, 229);
+   padding: 10px;
+   border-radius: 20px;
+}
+.ahaa{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.btnlogin{
+    background: rgb(199, 228, 157);
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 10px;
+    width: 100px;
+    cursor: pointer;
+
+}

@@ -1,0 +1,137 @@
+.custom-select {
+    min-width: 350px;
+    margin-bottom: 20px;
+  }
+  
+  .select1 {
+    appearance: none;
+    width: 300px;
+    font-size: 1.15rem;
+    padding: 0.675em 6em 0.675em 1em;
+    background-color: #fff;
+    border: 1px solid #caced1;
+    border-radius: 0.25rem;
+    color: #000;
+    cursor: pointer;
+  }
+  .bookappoint{
+    display: flex;
+    align-items: center;
+ background: greenyellow;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 10px;
+    width: 100px;
+    cursor: pointer;
+    margin-bottom: 30px;
+
+  }
+  .formappointment1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .servicebook{
+    
+    display: flex;
+    background: rgb(210, 209, 209);
+    border: #000;
+    border-style: solid;
+    border-width: thick;
+    margin: 20px;
+    
+  
+}
+.serviceimg{
+
+    width: 160px;
+    height: 160px;
+    margin: 7px;
+    border-style: solid;
+    border-width: thick;
+}
+
+.servicedetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 200px;
+    min-width: 200px;
+    align-items: center;
+}
+.servicecontainer{
+    max-height: 400px;
+    overflow: scroll;
+    
+}
+.customselect{
+    margin: 10px;
+}
+.imgcontainer{
+    display: flex;
+    justify-content: center;
+    min-width: 200px;
+    width: 100%;
+}
+.servicedescription{
+    
+    margin-left: 20px;
+}
+
+.containerapp1{
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height: 300px;
+}
+
+.containerapp2{
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.appdetails{
+  font-weight: 600;
+}
+.cancelbtn{
+  font-weight: 700;
+
+  background: rgb(234, 66, 66);
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+.cancelbtn2{
+  font-weight: 700;
+
+  background: rgb(249, 183, 183);
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+.notconfirmed{
+  margin: 0;
+  color: red;
+}
+.confirmed{
+  margin: 0;
+  color:green;
+}
+.detailsbook{
+
+  font-weight: 800;
+  font-size: 17px;
+}
+.removeservicebtn{
+  background-color: red;
+  color: white;
+  font-size: 10px;
+}

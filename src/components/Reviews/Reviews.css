@@ -1,0 +1,98 @@
+.containerreview{
+display: flex;
+    background-color: rgb(230, 230, 230);
+    padding: 14px;
+    margin-bottom: 20px;
+    border-style: solid;
+    
+}
+.containpositon{
+
+    display: flex;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: thick;
+    border: red;
+}
+.form-group1{
+
+    
+flex-direction: row;
+
+
+height: auto;
+   
+    
+}
+.formgroup2{
+    display: flex;
+}
+.columreview{
+    
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-control5 {
+    width: 90%;
+    max-height: 400px;
+    min-width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-control2:focus {
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696,
+               -13px -13px 100px #ffffff;
+  }
+  .rating {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.stars {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.star {
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.one {
+    color: rgb(255, 0, 0);
+}
+
+.two {
+    color: rgb(255, 106, 0);
+}
+
+.three {
+    color: rgb(251, 255, 120);
+}
+
+.four {
+    color: rgb(255, 255, 0);
+}
+
+.five {
+    color: rgb(24, 159, 14);
+}
+.btnaddreview{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(199, 228, 157);
+    border-radius: 12px;
+    padding: 5px;
+    width: 100px;
+    margin-left: 45px;
+    cursor: pointer;
+    
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const OrderHistory = () => {
+const RemoveService = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const OrderHistory = () => {
   )
 }
 
-export default OrderHistory
+export default RemoveService

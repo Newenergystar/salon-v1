@@ -1,0 +1,97 @@
+
+.hometitle{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        
+        color: rgb(167, 88, 31);
+        text-shadow:
+        -1px -1px 0 #000,
+         0   -1px 0 #000,
+         1px -1px 0 #000,
+         1px  0   0 #000,
+         1px  1px 0 #000,
+         0    1px 0 #000,
+        -1px  1px 0 #000,
+        -1px  0   0 #000;
+           
+        
+        font-size: 20px;
+        margin-bottom: 40px;
+       
+        
+        -webkit-text-stroke: 1px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .homebg{
+        display: flex;
+        flex-direction: row;
+        min-height: 40vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .Title{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+    align-items: center;
+    margin: 20px;
+        padding: 20px;
+    color: white;
+    margin-top: 100px;
+    max-height: 330px;
+    max-width: 300px;
+    margin-left: 100px;
+    background-color: rgb(172, 133, 133);
+    
+    }
+    .homepiccontainer{
+        display: flex;
+        flex-direction: column;
+       min-height: 400px;
+     min-width: 300px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+        
+    }
+    
+    
+    .homepicture2{
+    min-width: 100px;
+    max-height: 400px;
+    max-width: 100%;
+    height: auto;
+    
+    }
+    .booknowbtn{
+        margin-top: auto;
+        background-color: rgb(140, 243, 147);
+        min-height: 40px;
+        font-size: 20px;
+        font-weight: 700;
+        
+    
+        max-width: 200px;
+        min-width: 140px;   
+    
+    }
+    .homehero{
+        min-width: 200px;
+        background-color: red;
+        min-height: 200px;
+        
+    }
